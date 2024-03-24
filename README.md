@@ -1,5 +1,18 @@
-# AIPND-revision
+# Pre-trained Image Classifier to Identify Dog Breeds
+
+
+## About This Project
 This repository contains _REVISED_ code and associated files for the AI Programming with Python Nanodegree program. This repository consists of a number of tutorial notebooks for various coding exercises and programming labs that will be used to supplement the lessons of the course.
+
+
+## Instructions For Executing Pipeline
+1) Set up a local virtual environment using `virtualenv venv`.
+2) Activate the virtual environment with `source venv/bin/activate`. To deactivate, simply use deactivate.
+3) Install the necessary dependencies with  `pip install -r requirements.txt`.
+4) Navigate to the application folder using `cd intropyproject_classify_pet_images`.
+5) Execute `sh run_models_batch.sh` for the pet_images directory using all three CNN architecture models and show the output.
+6) Execute `sh run_models_batch_uploaded.sh` for the uploaded_images folder with all three CNN architecture models and display the results.
+7) Execute the application with a single CNN architecture model using `python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt`
 
 ## Table Of Contents
 
